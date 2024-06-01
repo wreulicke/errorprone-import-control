@@ -20,7 +20,7 @@ plugins {
 }
 
 group = "io.github.wreulicke"
-version = "0.0.2"
+version = "0.0.3"
 
 repositories {
     mavenCentral()
