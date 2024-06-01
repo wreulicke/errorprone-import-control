@@ -1,0 +1,3 @@
+- packageRegex: "com\\.example\\.myapp\\.repository"
+  deny:
+    - "com\\.example\\.myapp\\.service\\..*"
