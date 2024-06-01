@@ -20,7 +20,7 @@ plugins {
 }
 
 group = "io.github.wreulicke"
-version = "0.0.1"
+version = "0.0.2"
 
 repositories {
     mavenCentral()
@@ -102,7 +102,7 @@ tasks {
     }
 
     named<ShadowJar>("shadowJar") {
-        archiveClassifier.set("shadow")
+        archiveClassifier.set("")
         mergeServiceFiles()
 
         relocate("com.fasterxml", "io.github.wreulicke.com.fasterxml")
