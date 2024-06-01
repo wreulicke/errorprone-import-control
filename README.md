@@ -12,9 +12,9 @@ TBD
 
 ```ruby
 dependencies {
-  annotationProcessor 'io.github.wreulicke:errorprone-import-control:0.0.2'
+  annotationProcessor 'io.github.wreulicke:errorprone-import-control:0.0.3'
   # or you can write below when you use net.ltgt.errorprone plugin
-  errorprone 'io.github.wreulicke:errorprone-import-control:0.0.2'
+  errorprone 'io.github.wreulicke:errorprone-import-control:0.0.3'
 }
 ```
 
