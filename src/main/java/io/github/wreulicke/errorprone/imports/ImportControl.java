@@ -61,6 +61,10 @@ public class ImportControl extends BugChecker implements BugChecker.MemberSelect
 
     String packageName =
         state.getSourceForNode(state.getPath().getCompilationUnit().getPackageName());
+    if (packageName == null) {
+      return Description.NO_MATCH;
+    }
+
     Optional<ImportRule> found =
         rules.stream()
             .filter(rule -> rule.packageRegex().matcher(packageName).matches())
